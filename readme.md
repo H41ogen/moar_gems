@@ -44,4 +44,4 @@ A work-in-progress addon for Cubyz that adds 4 new gems with unique properties a
 ## Credits
 Code: Halogen
 
-Textures: Yhorm, Halogen, & quackk
+Textures: Yhorm, Halogen, & [quackk](https://quackk.nekoweb.org)
