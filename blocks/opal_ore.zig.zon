@@ -1,0 +1,62 @@
+.{
+	.tags = .{.mineable},
+	.blockHealth = 190,
+	.blockResistance = 11,
+	.ore = .{
+		.veins = 12,
+		.size = 3,
+		.height = -50000,
+		.density = 0.05,
+	},
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.rotation = "cubyz:ore",
+	.model = "cubyz:cube",
+	.texture = "moar_gems:opal_ore",
+	.item = .{
+		.texture = "opal.png",
+		.material = .{
+			.durability = 450,
+			.massDamage = 1.2,
+			.hardnessDamage = 6.5,
+			.swingSpeed = 5.2,
+			.textureRoughness = 2.0,
+			.colors = .{
+				0xff5d7ae4, 0xff8d85ff, 0xff78c1f9, 0xffa8f0ff, 0xffffffff,
+			},
+			.modifiers = .{
+				.{
+					.id = "fragile",
+					.strength = 0.5,
+					.restriction = .{
+						.id = .not,
+						.child = .{
+							.id = .encased,
+							.tag = .precious,
+							.amount = 6,
+						},
+					},
+				},
+				.{
+					.id = "powerful",
+					.strength = 0.5,
+					.restriction = .{
+						.id = .encased,
+						.tag = .precious,
+						.amount = 5,
+					},
+				},
+				.{
+					.id = "light",
+					.strength = 0.5,
+					.restriction = .{
+						.id = .encased,
+						.tag = .precious,
+						.amount = 4,
+					},
+				},
+			},
+		},
+	},
+}

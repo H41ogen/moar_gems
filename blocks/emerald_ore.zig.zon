@@ -1,0 +1,44 @@
+.{
+	.tags = .{.mineable},
+	.blockHealth = 50,
+	.blockResistance = 3,
+	.ore = .{
+		.veins = 4,
+		.size = 5,
+		.height = 50,
+		.minHeight = -5000,
+		.density = 0.05,
+	},
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.rotation = "cubyz:ore",
+	.model = "cubyz:cube",
+	.texture = "moar_gems:emerald_ore",
+	.item = .{
+		.tags = .{.emerald},
+		.texture = "emerald.png",
+		.material = .{
+			.durability = 200,
+			.massDamage = 0.7,
+			.hardnessDamage = 3.1,
+			.swingSpeed = 7.0,
+			.textureRoughness = 0.1,
+			.colors = .{
+				0xff0b6100, 0xff179c00, 0xff3dd71e, 0xff73f45b, 0xffcdffc2,
+			},
+			.modifiers = .{
+				.{
+					.id = "good_at",
+					.strength = 0.354,
+					.tag = .stone,
+					.restriction = .{
+						.id = .encased,
+						.tag = .emerald,
+						.amount = 1,
+					},
+				},
+			},
+		},
+	},
+}

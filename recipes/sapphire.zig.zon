@@ -1,0 +1,18 @@
+.{
+    .{
+		.inputs = .{"4 moar_gems:sapphire_ore"},
+		.output = "moar_gems:sapphire_block",
+	},
+	.{
+		.inputs = .{"moar_gems:sapphire_block"},
+		.output = "moar_gems:cut_sapphire_block",
+	},
+    .{
+		.inputs = .{"moar_gems:sapphire_block"},
+		.output = "4 moar_gems:sapphire_ore",
+	},
+	.{
+		.inputs = .{"moar_gems:cut_sapphire_block"},
+		.output = "4 moar_gems:sapphire_ore",
+	},
+}

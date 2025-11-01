@@ -1,0 +1,24 @@
+.{
+	.tags = .{.mineable},
+	.blockHealth = 30,
+	.blockResistance = 20,
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.rotation = "cubyz:ore",
+	.model = "cubyz:cube",
+	.texture = "moar_gems:lonsdaleite_ore",
+	.item = .{
+		.texture = "lonsdaleite.png",
+		.material = .{
+			.durability = 250,
+			.massDamage = 1.3,
+			.hardnessDamage = 24.0,
+			.swingSpeed = 5.5,
+			.textureRoughness = 0.25,
+			.colors = .{
+				0xff5d7ae4, 0xff8d85ff, 0xff78c1f9, 0xffa8f0ff, 0xffffffff,
+			},
+		},
+	},
+}

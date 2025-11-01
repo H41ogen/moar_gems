@@ -1,0 +1,11 @@
+.{
+	.tags = .{.mineable},
+	.blockHealth = 150,
+	.blockResistance = 11,
+	.drops = .{
+		.{.items = .{.auto}},
+	},
+	.rotation = "cubyz:stairs",
+	.model = "cubyz:cube",
+	.texture = "moar_gems:cut_opal_block",
+}
