@@ -18,13 +18,13 @@
 	.item = .{
 		.texture = "sapphire.png",
 		.material = .{
-			.durability = 50,
+			.durability = 80,
 			.massDamage = 2.3,
 			.hardnessDamage = 0.8,
 			.swingSpeed = 3.7,
-			.textureRoughness = 0.1,
+			.textureRoughness = 0.05,
 			.colors = .{
-				0xffa99942, 0xffbeb349, 0xffe5c64c, 0xfffae764, 0xfffeffc9,
+				0xff3b28b0, 0xff3746e0, 0xff266cf7, 0xff18a7f1, 0xffa6f6fc,
 			},
 			.modifiers = .{
 				.{

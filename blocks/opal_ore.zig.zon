@@ -21,9 +21,9 @@
 			.massDamage = 1.2,
 			.hardnessDamage = 6.5,
 			.swingSpeed = 5.2,
-			.textureRoughness = 2.0,
+			.textureRoughness = 1.5,
 			.colors = .{
-				0xff5d7ae4, 0xff8d85ff, 0xff78c1f9, 0xffa8f0ff, 0xffffffff,
+				0xffab3f8b, 0xffffa95e, 0xff86c69a, 0xffb5e7cb, 0xffffffff,
 			},
 			.modifiers = .{
 				.{

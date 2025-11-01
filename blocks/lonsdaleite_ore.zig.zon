@@ -17,7 +17,7 @@
 			.swingSpeed = 5.5,
 			.textureRoughness = 0.25,
 			.colors = .{
-				0xff5d7ae4, 0xff8d85ff, 0xff78c1f9, 0xffa8f0ff, 0xffffffff,
+				0xff6a5133, 0xff927b42, 0xffc8b25b, 0xffe3d47e, 0xfffff6c4,
 			},
 		},
 	},
