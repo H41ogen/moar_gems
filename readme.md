@@ -5,7 +5,7 @@ A work-in-progress addon for Cubyz that adds 4 new gems with unique properties a
 
 ### Ores
  - ![](blocks/textures/sapphire_ore.png) Sapphire: generates above z=50, decreases swing time by 33% when not touching metal
- - ![](blocks/textures/emerald_ore.png) Emerald: generates z=-5000..50, grants 35% extra damage to .stone blocks when next to another emerald, for 50% extra damage with two
+ - ![](blocks/textures/emerald_ore.png) Emerald: generates z=-5000..-50, grants 35% extra damage to .stone blocks when next to another emerald, for 50% extra damage with two
  - ![](blocks/textures/opal_ore.png) Opal: generates in the root
  - ![](blocks/textures/lonsdaleite_ore.png) Lonsdaleite: generates in craters, and has a higher toughness than uranium
 
