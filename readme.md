@@ -1,5 +1,5 @@
 # Moar Gems
-A work-in-progress addon for Cubyz that adds 4 new gems with unique properties and incredible new potential for tool creation.
+An addon for Cubyz that adds 4 new gems with unique properties and incredible new potential for tool creation.
 
 ## Content
 
