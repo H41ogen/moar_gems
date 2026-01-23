@@ -39,7 +39,7 @@ An addon for Cubyz that adds 4 new gems with unique properties and incredible ne
 | Cut Opal Block ![](blocks/textures/cut_opal_block.png) | 4 Opal ![](items/textures/opal.png) | No |
 | 4 Lonsdaleite ![](items/textures/lonsdaleite.png) | Lonsdaleite Block ![](blocks/textures/lonsdaleite_block.png) | Yes |
 | Lonsdaleite Block ![](blocks/textures/lonsdaleite_block.png) | Cut Lonsdaleite Block ![](blocks/textures/cut_lonsdaleite_block.png) | No |
-| Cut_Lonsdaleite_Block ![](blocks/textures/cut_lonsdaleite_block.png) | 4 Lonsdaleite ![](items/textures/lonsdaleite.png) | No |
+| Cut Lonsdaleite Block ![](blocks/textures/cut_lonsdaleite_block.png) | 4 Lonsdaleite ![](items/textures/lonsdaleite.png) | No |
 
 ## Credits
 Code: Halogen
