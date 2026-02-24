@@ -26,7 +26,7 @@ An addon for Cubyz that adds 4 new gems with unique properties and incredible ne
  - Crater: a small sub-biome that contains magma, lonsdaleite ore, and lots of iron
 
 ### Recipes
-| Inputs | Output | 2-Way? |
+| Inputs | Output | Reversible? |
 | ----------------------- | ----------------------- | ----------- |
 | 4 Sapphire ![](items/textures/sapphire.png) | Sapphire Block ![](blocks/textures/sapphire_block.png) | Yes |
 | Sapphire Block ![](blocks/textures/sapphire_block.png) | Cut Sapphire Block ![](blocks/textures/cut_sapphire_block.png) | No |
