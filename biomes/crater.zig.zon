@@ -1,17 +1,16 @@
 .{
 	.properties = .{},
-	.radius = 10,
+	.radius = 16,
 	.chance = 0,
 	.minHeight = -2000,
 	.maxHeight = -1000,
 	.keepOriginalTerrain = 0.99,
 	.roughness = 0,
-	.stoneBlock = "cubyz:slate",
 	.structures = .{
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "moar_gems:lonsdaleite_ore:cubyz:slate",
-			.chance = 0.15,
+			.block = "moar_gems:lonsdaleite_ore:cubyz:slate/base",
+			.chance = 0.2,
 			.width = 1,
 			.variation = 0,
 			.depth = 1,
@@ -19,7 +18,7 @@
 		},
 		.{
 			.id = "cubyz:ground_patch",
-			.block = "cubyz:iron_ore:cubyz:slate",
+			.block = "cubyz:iron_ore:cubyz:slate/base",
 			.chance = 1.0,
 			.width = 1,
 			.variation = 3,
@@ -39,63 +38,63 @@
 	.parentBiomes = .{
 		.{
 			.id = "cubyz:grassland",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:autumn/mixed_forest",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:autumn/forest",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:rocky_grassland",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:taiga/base",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:forest/mixed/oak_birch",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:forest/mixed/oak_pine",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:forest/birch",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:forest/thin_birch",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:desert/base",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:bush_lands",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:prairie/base",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:savannah/base",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:jungle",
-			.chance = 3,
+			.chance = 1.2,
 		},
 		.{
 			.id = "cubyz:swamp/base",
-			.chance = 3,
+			.chance = 1.2,
 		},
 	},
 }
